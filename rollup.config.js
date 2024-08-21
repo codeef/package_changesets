@@ -5,11 +5,11 @@ export default {
   input: 'src/index.ts',
   output: [
     {
-      file: packageJson.main,
+      file: 'lib/main.js',
       format: 'cjs',
     },
     {
-      file: packageJson.module,
+      file: 'lib/main.esm.js',
       format: 'esm',
     },
   ],
