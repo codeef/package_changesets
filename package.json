@@ -1,0 +1,27 @@
+{
+  "name": "@codeef/example-package",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "lib/main.js",
+  "module": "lib/main.esm.js",
+  "types": "lib/types/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "sideEffects": "false",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "release_packages": "npm run build && npx changeset publish"
+  },
+  "description": "This is an example package",
+  "dependencies": {
+    "rollup": "^4.13.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
+}
