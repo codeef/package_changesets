@@ -1,0 +1,10 @@
+{
+  "mode": "exit",
+  "tag": "beta",
+  "initialVersions": {
+    "@codeef/example-package": "1.0.0"
+  },
+  "changesets": [
+    "four-chicken-repair"
+  ]
+}
