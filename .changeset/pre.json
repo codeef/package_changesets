@@ -4,5 +4,7 @@
   "initialVersions": {
     "@codeef/example-package": "1.1.0"
   },
-  "changesets": []
+  "changesets": [
+    "honest-spies-smell"
+  ]
 }
