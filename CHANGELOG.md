@@ -1,5 +1,11 @@
 # @codeef/example-package
 
+## 1.1.0-beta.0
+
+### Minor Changes
+
+- 7e5e74a: text update
+
 ## 1.0.1
 
 ### Patch Changes
