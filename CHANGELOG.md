@@ -1,5 +1,11 @@
 # @codeef/example-package
 
+## 1.1.2
+
+### Patch Changes
+
+- 4b5fbe3: Updated text to 3
+
 ## 1.1.2-beta.0
 
 ### Patch Changes
